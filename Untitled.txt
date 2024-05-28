@@ -1,0 +1,16 @@
+OCR Python
+Optical character recognition
+Converting text in images to raw text
+
+We convert the image into numerical arrays that can then be parsed by the OCR system to get the text
+
+
+Tesseract from Google
+Not going to work for handwritten documents
+
+Workflow fro OCR problems
+Depends a little on type and quality of document
+PIL (pillow) = open an image
+OpenCV = change an image. Manipulate the image, extract bits of it, binarize it, grayscale it. So that the model can perform better, as it now will work with lesser data (no color)
+Tesseract(PyTesseract) = OCR an image. 
+
